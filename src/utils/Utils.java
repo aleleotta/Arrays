@@ -12,8 +12,7 @@ public class Utils {
 			indiceBusqueda++;
 		}
 
-		// En caso de que el índice sea mayor que la longitud de la tabla
-		// significa que no hemos encontrado el elemento
+		// Mensaje de error por si no hay el elemento pedido
 		if (indiceBusqueda >= tabla.length) {
 			indiceBusqueda = -1;
 		}
