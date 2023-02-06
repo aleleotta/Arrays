@@ -19,4 +19,12 @@ public class Utils {
 
 		return indiceBusqueda;
 	}
+	//Funcion basica
+	public static int busquedaSecuencialBasica(int tabla[], int valor) {
+		int indiceBusqueda = 0;
+		while (indiceBusqueda < tabla.length && valor != tabla[indiceBusqueda]) {
+			indiceBusqueda++;
+		}
+		return indiceBusqueda;
+	}
 }
