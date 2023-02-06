@@ -19,6 +19,8 @@ public class Utils {
 
 		return indiceBusqueda;
 	}
+	
+	
 	//Funcion basica
 	public static int busquedaSecuencialBasica(int tabla[], int valor) {
 		int indiceBusqueda = 0;
