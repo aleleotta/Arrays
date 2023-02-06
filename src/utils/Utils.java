@@ -6,7 +6,7 @@ public class Utils {
 		// buscado
 		int indiceBusqueda = 0;
 
-		// Mientras no encontremos el valor y no hayamos llegado al final de la tabla
+		//Mientras no encontremos el valor y no hayamos llegado al final de la tabla
 		// incrementamos en 1 el índice de búsqueda
 		while (indiceBusqueda < tabla.length && valor != tabla[indiceBusqueda]) {
 			indiceBusqueda++;
